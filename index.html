@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script/script.js"> </script>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Javascript Minesweeper</h1>
+      <div class="minesweeper">
+        <form class="options" >
+          <input type="radio" name="radioOptions" value="9" checked="checked">9
+          <input type="radio" name="radioOptions" value="15">15
+          <input type="radio" name="radioOptions" value="20">20
+        </form>
+        <div class="top">
+          <div class="mines">
+            <img id="mine0">
+            <img id="mine1">
+          </div>
+          <img class="imgface" onClick="init(9)" src="images/face/facesmile.gif">
+          <div class="timer">
+            <img id="time0">
+            <img id="time1">
+            <img id="time2">
+          </div>
+        </div>
+        <div class="grid"></div>
+      </div>
+      <p>Play with left and middle click</p>
+      <footer>See code on <a href="http://github.com/AtActionPark/odin_minesweeper">Github</a></footer>
+    </div>
+  </body>
+</html>

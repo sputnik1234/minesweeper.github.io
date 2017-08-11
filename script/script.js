@@ -1,6 +1,4 @@
-/*  I shamelessly stole Donald's images and state var
-    @ https://github.com/donaldali/odin-js-jquery/tree/master/minesweeper
-*/
+
 var STATE = {
   blank: 1,
   opened: 2,
